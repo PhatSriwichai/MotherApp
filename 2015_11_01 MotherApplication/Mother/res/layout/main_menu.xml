@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="${relativePackage}.${activityClass}" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		
+         <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:text=""
+            />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="คุณแม่ยุคใหม่"
+            android:textColor="@color/red"
+            android:textSize="25dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ดูแลลูกน้อยด้วยพัฒนกิจ"
+            android:textColor="@color/red"
+            android:textSize="25dp" />
+        
+        <Button
+            android:id="@+id/pata1"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="พัฒนกิจที่ 1" />
+
+        <Button
+            android:id="@+id/pata2"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="พัฒนกิจที่ 2" />
+        
+        <Button
+            android:id="@+id/pata3"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="พัฒนกิจที่ 3" />
+
+        <Button
+            android:id="@+id/pata4"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="พัฒนกิจที่ 4" />
+        
+        <Button
+            android:id="@+id/pata5"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="ความเชื่อในหญิงตั้งครรภ์" />
+
+        <Button
+            android:id="@+id/pata6"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="ลับสมองประลองปัญญา" />
+        
+        <Button
+            android:id="@+id/pata7"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="มารู้จักพวกเรา" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/capture" />
+
+</RelativeLayout>

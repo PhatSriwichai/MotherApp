@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange_light_background">
+   
+       <LinearLayout
+        	android:id="@+id/linearLayout1"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+
+		<ImageView 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="50dp"
+	    	android:src="@color/orange"/>
+	
+	</LinearLayout>
+	
+       <LinearLayout 
+           	
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+           
+           <LinearLayout
+           	android:id="@+id/linearLayout2"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_alignBottom="@+id/linearLayout1"
+        	android:orientation="horizontal" >
+           
+           		<ImageView 
+	    			android:layout_width="68dp"
+	    			android:layout_height="50dp"
+	    			android:src="@drawable/mom1"/>
+           
+          		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:layout_gravity="center"
+            		android:text="  พัฒนกิจขั้นที่ 2"
+            		android:textColor="@color/white"
+            		android:textSize="30dp" />
+           
+       </LinearLayout>
+       
+           <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:layout_gravity="center"
+            		android:text=" "
+            		android:textSize="20dp" />
+           
+       		<LinearLayout 
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+       		    
+       		    <ImageView 
+	    			android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_weight="2"
+	    			android:src="@drawable/social_spirit"/>
+       		    
+       		     <Button
+       		       	android:id="@+id/pata2_1"
+		    		android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_gravity="center"
+	    			android:layout_weight="1"
+	    			android:layout_centerHorizontal="true"
+	    			android:text="การรับรู้การมีตัวตนของ
+บุตร"/>
+       		    </LinearLayout>
+          
+       		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:layout_gravity="center"
+            		android:text=" "
+            		android:textSize="20dp" />
+       		
+       		<LinearLayout 
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+
+       		    <ImageView 
+	    			android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_weight="2"
+	    			android:src="@drawable/strain"/>
+       		    
+       		     <Button 
+       		        android:id="@+id/pata2_2"
+		    		android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_gravity="center"
+	    			android:layout_weight="1"
+	    			android:layout_centerHorizontal="true"
+	    			android:text="อาหารสำหรับคุณแม่"/>
+       		    </LinearLayout>
+           
+       		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:layout_gravity="center"
+            		android:text=" "
+            		android:textSize="20dp" />
+       		
+       		<LinearLayout 
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+
+       		    <ImageView 
+	    			android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_weight="2"
+	    			android:src="@drawable/tongg"/>
+       		    
+       		     <Button
+       		        android:id="@+id/pata2_3" 
+		    		android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_gravity="center"
+	    			android:layout_weight="1"
+	    			android:layout_centerHorizontal="true"
+	    			android:text="อาการแพ้ท้องลดลงแล้ว 
+...แต่ว่า"/>
+       		    </LinearLayout>
+       		    
+       			<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:layout_gravity="center"
+            		android:text=" "
+            		android:textSize="20dp" />
+       		
+       		<LinearLayout 
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal" >
+
+       		    <ImageView 
+	    			android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_weight="2"
+	    			android:src="@drawable/fa_help_mo"/>
+       		    
+       		     <Button
+       		        android:id="@+id/pata2_4" 
+		    		android:layout_width="match_parent"
+	    			android:layout_height="60dp"
+	    			android:layout_gravity="center"
+	    			android:layout_weight="1"
+	    			android:layout_centerHorizontal="true"
+	    			android:text="คุณพ่อจะมีวิธีช่วยคุณแม่อย่างไร?"/>
+       		    </LinearLayout>
+           
+       </LinearLayout>
+
+       <ImageButton
+           android:id="@+id/back2"
+           android:layout_width="90dp"
+           android:layout_height="90dp"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           android:src="@drawable/backhome" />
+	
+</RelativeLayout>

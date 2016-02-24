@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mother"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MomActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainMenu"></activity>
+        <activity android:name="Patana1"></activity>
+        <activity android:name="Patana1_1"></activity>
+        <activity android:name="Patana1_2"></activity>
+        <activity android:name="Patana1_3"></activity>
+        <activity android:name="Patana2"></activity>
+        <activity android:name="Patana2_1"></activity>
+        <activity android:name="Patana2_2"></activity>
+        <activity android:name="Patana2_3"></activity>
+        <activity android:name="Patana2_4"></activity>
+        <activity android:name="Patana3"></activity>
+        <activity android:name="Patana3_1"></activity>
+        <activity android:name="Patana3_2"></activity>
+        <activity android:name="Patana3_3"></activity>
+        <activity android:name="Patana4"></activity>
+        <activity android:name="Patana4_1"></activity>
+        <activity android:name="Patana4_2"></activity>
+       
+    </application>
+
+</manifest>

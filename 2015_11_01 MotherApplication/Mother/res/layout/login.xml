@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="${relativePackage}.${activityClass}" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        
+        <EditText
+            android:id="@+id/username"
+        	android:layout_width="250dp"
+        	android:layout_height="50dp"
+        	android:layout_centerHorizontal="true"
+        	android:layout_gravity="center"
+        	android:layout_marginTop="150dp"
+        	android:hint="Username"
+        	android:inputType="textPersonName"
+            />
+        
+         <EditText
+            android:id="@+id/password"
+        	android:layout_width="250dp"
+        	android:layout_height="50dp"
+        	android:layout_centerHorizontal="true"
+        	android:layout_gravity="center"
+        	android:layout_marginTop="10dp"
+        	android:hint="Password"
+        	android:inputType="textPassword"
+            />
+         
+         <Button
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Login" />
+         
+         <TextView
+            style="@style/TextStyle1"
+            android:id="@+id/createAccount"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lines="1"
+            android:layout_gravity="center"
+            android:text="Create Account"
+             />
+        
+        
+    </LinearLayout>
+
+    
+
+</RelativeLayout>
